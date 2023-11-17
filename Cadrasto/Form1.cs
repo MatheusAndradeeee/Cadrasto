@@ -1,3 +1,5 @@
+using AppGunaExemplo.Configuracao;
+
 namespace Cadrasto
 {
     public partial class Form1 : Form
@@ -7,6 +9,62 @@ namespace Cadrasto
             InitializeComponent();
             label15.Text = "";
         }
+
+        void Inserir()
+        {
+            var nomeFunc = "João da Silva Neto";
+            var cpfFunc = "123.131.131-12";
+
+            try
+            {
+
+                Conexao conexao = new Conexao();
+
+                var comando = conexao.Comando("INSERT INTO funcionario (nome_func, cpf_func) VALUES (@nome, @cpf)");
+
+                comando.Parameters.AddWithValue("@nome", nomeFunc);
+                comando.Parameters.AddWithValue("@cpf", cpfFunc);
+                var resultado = comando.ExecuteNonQuery();
+
+                if (resultado > 0)
+                {
+                    MessageBox.Show("Funcionário cadastrado com sucesso");
+                }
+
+            }
+
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        void Consultar()
+        {
+            try
+            {
+                var conexao = new Conexao();
+                var comando = conexao.Comando("SELECT * FROM funcionario");
+                var leitor = comando.ExecuteReader();
+
+                string resultado = null;
+
+                while (leitor.Read())
+                {
+                    resultado += "\n" + leitor.GetString("nome_func");
+                }
+                MessageBox.Show(resultado);
+
+            }
+
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+       
+
+    
 
         private void label11_Click(object sender, EventArgs e)
         {

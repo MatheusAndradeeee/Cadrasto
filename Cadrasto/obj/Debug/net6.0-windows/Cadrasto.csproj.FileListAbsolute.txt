@@ -16,3 +16,20 @@ C:\Users\Matheus\source\repos\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\Cadrast
 C:\Users\Matheus\source\repos\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\Cadrasto.genruntimeconfig.cache
 C:\Users\Matheus\source\repos\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\ref\Cadrasto.dll
 C:\Users\Matheus\source\repos\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\Cadrasto.Properties.Resources.resources
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\bin\Debug\net6.0-windows\Cadrasto.exe
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\bin\Debug\net6.0-windows\Cadrasto.deps.json
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\bin\Debug\net6.0-windows\Cadrasto.runtimeconfig.json
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\bin\Debug\net6.0-windows\Cadrasto.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\bin\Debug\net6.0-windows\Cadrasto.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\Cadrasto.Form1.resources
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\Cadrasto.Properties.Resources.resources
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\Cadrasto.csproj.GenerateResource.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\Cadrasto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\Cadrasto.AssemblyInfoInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\Cadrasto.AssemblyInfo.cs
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\Cadrasto.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\Cadrasto.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\refint\Cadrasto.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\Cadrasto.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\Cadrasto.genruntimeconfig.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\aa\Cadrasto\Cadrasto\obj\Debug\net6.0-windows\ref\Cadrasto.dll
