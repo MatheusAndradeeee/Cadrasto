@@ -57,6 +57,8 @@
             button1 = new Button();
             button2 = new Button();
             label15 = new Label();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -332,12 +334,22 @@
             label15.TabIndex = 6;
             label15.Text = "label15";
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(441, 55);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.Size = new Size(285, 336);
+            dataGridView1.TabIndex = 7;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 128, 128);
-            ClientSize = new Size(471, 403);
+            ClientSize = new Size(738, 403);
+            Controls.Add(dataGridView1);
             Controls.Add(label15);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -369,6 +381,7 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -404,5 +417,6 @@
         private Button button1;
         private Button button2;
         private Label label15;
+        private DataGridView dataGridView1;
     }
 }

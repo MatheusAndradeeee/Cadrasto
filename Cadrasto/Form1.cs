@@ -1,4 +1,13 @@
 using AppGunaExemplo.Configuracao;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Cadrasto
 {
@@ -7,6 +16,8 @@ namespace Cadrasto
         public Form1()
         {
             InitializeComponent();
+            Inserir();
+            Consultar();
             label15.Text = "";
         }
 
@@ -33,7 +44,7 @@ namespace Cadrasto
 
             }
 
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -57,14 +68,14 @@ namespace Cadrasto
 
             }
 
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
         }
-       
 
-    
+
+
 
         private void label11_Click(object sender, EventArgs e)
         {
